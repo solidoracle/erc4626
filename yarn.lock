@@ -1767,10 +1767,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openzeppelin/contracts@npm:~4.8.1":
-  version: 4.8.3
-  resolution: "@openzeppelin/contracts@npm:4.8.3"
-  checksum: aea130d38d46840c5cbe3adbaa9a7ac645e4bd66ad3f3baf2fa78588c408d1a686170b3408c9e2e5e05530fba22ecdc00d7efb6b27852a8b29f91accbc0af255
+"@openzeppelin/contracts@npm:5.0.1":
+  version: 5.0.1
+  resolution: "@openzeppelin/contracts@npm:5.0.1"
+  checksum: bc056d358a672f0d43ff5a372b5b65c6d3e9e49478f70bc00a5ad06ce9107400e8e8b8d94cf85dffca00b303ee8d15ac8def55d320ea54386dc81d6b98ddfabc
   languageName: node
   linkType: hard
 
@@ -2092,7 +2092,7 @@ __metadata:
     "@nomicfoundation/hardhat-ethers": ~3.0.5
     "@nomicfoundation/hardhat-network-helpers": ~1.0.6
     "@nomicfoundation/hardhat-verify": ~2.0.3
-    "@openzeppelin/contracts": ~4.8.1
+    "@openzeppelin/contracts": 5.0.1
     "@typechain/ethers-v5": ~10.1.0
     "@typechain/ethers-v6": ~0.5.1
     "@typechain/hardhat": ~9.1.0
@@ -2116,6 +2116,7 @@ __metadata:
     prettier: ~2.8.4
     qrcode: ~1.5.1
     solidity-coverage: ~0.8.5
+    solmate: 6.6.1
     ts-node: ~10.9.1
     typechain: ~8.1.0
     typescript: ~5.1.6
@@ -12566,6 +12567,13 @@ __metadata:
   bin:
     solidity-coverage: plugins/bin.js
   checksum: aa18bf332bae4256753e24c6e866beecc35adbc694a285dac3947433c708f488cb18f11026b4e00250af8eadb910b642b1532d21137444cf00666b44ac0f8366
+  languageName: node
+  linkType: hard
+
+"solmate@npm:6.6.1":
+  version: 6.6.1
+  resolution: "solmate@npm:6.6.1"
+  checksum: 8984eeabcc5e4b47bf37e3bc0c7fa9d358bf6cb0eb874be87572b841c9d61e8523be1e7221bdd36e87a84017ed5e08ca835728393e22ea5b7cd7be925904bf12
   languageName: node
   linkType: hard
 
