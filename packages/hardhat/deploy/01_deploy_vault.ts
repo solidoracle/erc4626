@@ -21,7 +21,7 @@ const deploySe2Token: DeployFunction = async function (hre: HardhatRuntimeEnviro
   const { deployer } = await hre.getNamedAccounts();
   const { deploy } = hre.deployments;
 
-  const se2Token = await deploy("SE2Token", {
+  const se2Token = await deploy("MockUSDC", {
     from: deployer,
     log: true,
     // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
